@@ -20,6 +20,7 @@ Primera Clase
 Segunda Clase
 =============
 
+0. Linux (no es obligacion, pero recomendado para acelerar la clase)
 1. Notebook de iPython:
    http://nbviewer.ipython.org/urls/raw.github.com/ehmatthes/intro_programming/master/notebooks/intro_programming_index.ipynb#syllabus
 2. Entorno de desarrollo recomendado: PyCharm.
