@@ -2,9 +2,9 @@ def clinic():
     print "You've just entered the clinic!"
     print "Do you take the door on the left or the right?"
     answer = raw_input("Type left or right and hit 'Enter'.").lower()
-    if answer == "left" or answer == "l":
+    if answer == "left" or answer == "l" or answer == "izquierda":
         print "This is the Verbal Abuse Room, you heap of parrot droppings!"
-    elif answer == "right" or answer == "r":
+    elif answer == "right" or answer == "r" or answer == "derecha":
         print "Of course this is the Argument Room, I've told you that already!"
     else:
         print "You didn't pick left or right! Try again."
