@@ -33,7 +33,9 @@ Ya todos tenemos lo básico instalado y entendemos los conceptos fundamentales d
 
 Ahora empecemos nuestra primera aplicación, usando programación basada en eventos vamos a estudiar aplicaciones web desde la capa más baja.
 
-0. Corremos el servidor:
+0. Installamos flask
+   ''' sudo easy_install Flask'''
+1. Corremos el servidor:
    '''
    cd code
    python server.py
