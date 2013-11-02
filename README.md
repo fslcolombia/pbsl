@@ -32,3 +32,17 @@ Tercera Clase
 Ya todos tenemos lo básico instalado y entendemos los conceptos fundamentales del lenguaje.
 
 Ahora empecemos nuestra primera aplicación, usando programación basada en eventos vamos a estudiar aplicaciones web desde la capa más baja.
+
+0. Corremos el servidor:
+   '''
+   cd code
+   python server.py
+   '''
+1. Probamos que devuelve "En la 38" usando el explorador con la url http://localhost:9000/
+2. Probamos conectando con telnet y con curl
+   telnet 127.0.0.1 9000
+   GET /
+
+   curl http://127.0.0.1/
+3. Corremos apache benchmark para probar cuantos requests nos responde por segundo en nuestra maquina:
+   ab -c 2 -n 10000 http://127.0.0.1:9000/
