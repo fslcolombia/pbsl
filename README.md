@@ -25,3 +25,10 @@ Segunda Clase
    http://www.introtopython.org
 2. Entorno de desarrollo recomendado: PyCharm.
    http://www.jetbrains.com/pycharm/
+
+Tercera Clase
+=============
+
+Ya todos tenemos lo básico instalado y entendemos los conceptos fundamentales del lenguaje.
+
+Ahora empecemos nuestra primera aplicación, usando programación basada en eventos vamos a estudiar aplicaciones web desde la capa más baja.
